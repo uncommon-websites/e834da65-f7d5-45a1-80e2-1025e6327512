@@ -24,41 +24,41 @@
 
 	const benefits = [
 		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
+			title: "AI-First Innovation",
+			description: "Work at the forefront of AI and design innovation, shaping how startups build their brands.",
 			icon: IconBriefcase
 		},
 		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
+			title: "Startup Growth Journey",
+			description: "Experience exponential growth alongside our startup clients while developing cutting-edge AI design tools.",
 			icon: IconUsers
 		},
 		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
+			title: "Direct Impact",
+			description: "See your work launch companies and transform startup dreams into reality through AI-powered design.",
 			icon: IconHeart
 		}
 	];
 
 	const openings: JobOpening[] = [
-		// Engineering
+		// AI & Engineering
 		{
-			title: "Senior Frontend Developer",
-			department: "Engineering",
+			title: "AI Design Engineer",
+			department: "AI & Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Backend Engineer",
-			department: "Engineering",
+			title: "Machine Learning Engineer",
+			department: "AI & Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Design Engineer",
-			department: "Engineering",
+			title: "Full-Stack Developer",
+			department: "AI & Engineering",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
@@ -66,14 +66,14 @@
 
 		// Design
 		{
-			title: "UX/UI Designer",
+			title: "Startup Design Strategist",
 			department: "Design",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Product Designer",
+			title: "AI-Powered Designer",
 			department: "Design",
 			location: "Remote",
 			type: "Full-time",
@@ -82,38 +82,38 @@
 
 		// Product
 		{
-			title: "Product Manager",
+			title: "Product Manager - AI Tools",
 			department: "Product",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Product Analyst",
+			title: "Startup Success Manager",
 			department: "Product",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 
-		// Marketing
+		// Growth & Marketing
 		{
-			title: "Marketing Specialist",
-			department: "Marketing",
+			title: "Growth Marketing Manager",
+			department: "Growth & Marketing",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Content Strategist",
-			department: "Marketing",
+			title: "Startup Community Manager",
+			department: "Growth & Marketing",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
 		},
 		{
-			title: "Social Media Manager",
-			department: "Marketing",
+			title: "Content Creator - AI Design",
+			department: "Growth & Marketing",
 			location: "Remote",
 			type: "Full-time",
 			url: "#"
@@ -122,31 +122,31 @@
 
 	const employeeTestimonials = [
 		{
-			name: "Michael Chen",
-			position: "Senior Developer",
+			name: "Aisha Patel",
+			position: "Senior AI Design Engineer",
 			company: "Engineering Team",
 			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
+				"The technical challenges here constantly push me to develop cutting-edge AI solutions. Working alongside brilliant engineers while building tools that genuinely help startups succeed makes every sprint exciting.",
 			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-a-south-asian.webp"
 		},
 		{
-			name: "Priya Sharma",
-			position: "Product Designer",
+			name: "Marcus Thompson",
+			position: "Product Growth Lead",
+			company: "Product Team",
+			quote:
+				"I joined as a junior analyst and moved into product leadership within 18 months. The mentorship opportunities and direct startup exposure have accelerated my career beyond what I imagined possible.",
+			image:
+				"/generated/image-a-professional-headshot-of-a-black-man-p.webp"
+		},
+		{
+			name: "Elena Rodriguez",
+			position: "Junior Designer",
 			company: "Design Team",
 			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
+				"As someone new to the industry, the supportive culture here has been incredible. Senior designers take time to guide my growth, and seeing my work help real founders launch their companies is incredibly motivating.",
 			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-a-hispanic-wo.webp"
 		}
 	];
 
@@ -155,35 +155,40 @@
 			step: 1,
 			title: "Apply",
 			description:
-				"Submit your application through our careers portal with your resume and portfolio."
+				"Submit your application with examples of AI/design work, startup experience, or passion projects that show your innovative thinking."
 		},
 		{
 			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
+			title: "AI Design Challenge",
+			description: "Complete a brief design challenge using AI tools to demonstrate your problem-solving approach for startup scenarios."
 		},
 		{
 			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
+			title: "Team Collaboration",
+			description: "Meet our AI design team to discuss startup challenges, share ideas, and explore how you'll contribute to founder success."
+		},
+		{
+			step: 4,
+			title: "Welcome Aboard",
+			description: "Join our mission to democratize great design for startups and help build the next generation of successful companies."
 		}
 	];
 
 	const values = [
 		{
 			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
+			title: "Startup Mindset",
+			description: "We think like entrepreneurs, move fast, and embrace the startup journey with passion and resilience."
 		},
 		{
 			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
+			title: "AI-Powered Creativity",
+			description: "We blend artificial intelligence with human creativity to unlock new possibilities in design and company building."
 		},
 		{
 			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
+			title: "Founder Success",
+			description: "We measure our success by the startups we help launch and the founders whose dreams we help realize."
 		}
 	];
 </script>
@@ -191,14 +196,14 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Shape the future of AI-powered design"
+	subtitle="Join a passionate team building the next generation of design tools that empower startups to succeed. Create meaningful impact while advancing your career in an innovative, collaborative environment."
+	imageSrc="/generated/image-a-modern-collaborative-workspace-with-a-.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join us?" subtitle="Shape the future of startup design with AI innovation" />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -217,7 +222,7 @@
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
 
-		<div class="grid gap-12 md:grid-cols-3">
+		<div class="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
 			{#each processSteps as { step, title, description }, i}
 				<div class="flex flex-col">
 					<div class="{ICON_CONTAINER_CLASSES} mb-6 size-11">

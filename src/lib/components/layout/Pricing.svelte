@@ -36,115 +36,118 @@ Please update features according to the company's product offering. Do not remov
 	// Props
 	const {
 		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		subtitle = "AI-powered design solutions that scale with your startup",
+		tierNames = ["Bootstrap", "Scale", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "AI design credits",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Bootstrap: "50/month",
+					Scale: "500/month",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
 				name: "Team members",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
+					Bootstrap: "2",
+					Scale: "10",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Brand kits",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
+					Bootstrap: "1",
+					Scale: "5",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "API access",
+				name: "AI logo generator",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Bootstrap: true,
+					Scale: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Website templates",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Bootstrap: "50+",
+					Scale: "200+",
+					Enterprise: "500+"
+				}
+			},
+			{
+				name: "Marketing materials",
+				tiers: {
+					Bootstrap: "Basic",
+					Scale: "Advanced",
+					Enterprise: "Premium"
+				}
+			},
+			{
+				name: "Custom AI training",
+				tiers: {
+					Bootstrap: false,
+					Scale: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Priority support",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Bootstrap: "Email",
+					Scale: "Chat + Email",
+					Enterprise: "Dedicated success manager"
 				}
 			},
 			{
-				name: "Support response time",
+				name: "Commercial license",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
+					Bootstrap: true,
+					Scale: true,
 					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Bootstrap",
+				monthlyPrice: 19,
+				yearlyPrice: 15, // 20% savings
+				description: "Perfect for early-stage startups and solo founders",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"50 AI design credits per month",
+					"AI logo and brand kit generator",
+					"Access to 50+ website templates",
+					"Basic marketing materials",
+					"2 team members",
+					"Email support"
 				],
 				cta: {
 					label: "Get started",
-					href: "/signup?plan=starter"
+					href: "/signup?plan=bootstrap"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Scale",
+				monthlyPrice: 79,
+				yearlyPrice: 63, // 20% savings
+				description: "For growing startups ready to scale their brand",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"500 AI design credits per month",
+					"Custom AI brand training",
+					"Access to 200+ premium templates",
+					"Advanced marketing materials",
+					"5 brand kits",
+					"10 team members",
+					"Priority chat and email support"
 				],
 				cta: {
 					label: "Get started",
-					href: "/signup?plan=pro"
+					href: "/signup?plan=scale"
 				},
 				highlight: true
 			},
@@ -152,15 +155,15 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "For established startups with custom design needs",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Unlimited AI design credits",
+					"Custom AI model training",
+					"White-label solutions",
+					"Premium template library (500+)",
+					"Unlimited brand kits and team members",
+					"Dedicated success manager",
+					"Custom integrations and API access"
 				],
 				cta: {
 					label: "Contact sales",
@@ -188,13 +191,13 @@ Please update features according to the company's product offering. Do not remov
 		<div class="mb-8 flex justify-center">
 			<div class="inline-flex items-center rounded-full bg-gray-200 p-0.5 gap-0.5">
 				<button
-					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {!annual ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
+					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {!annual ? 'bg-white text-gray-900 ring-1 ring-gray-200' : 'text-gray-600 hover:text-gray-900'}"
 					onclick={() => (annual = false)}
 				>
 					Monthly
 				</button>
 				<button
-					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {annual ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-600 hover:text-gray-900'}"
+					class="rounded-full px-4 py-1.5 text-sm font-semibold transition-all duration-200 {annual ? 'bg-white text-gray-900 ring-1 ring-gray-200' : 'text-gray-600 hover:text-gray-900'}"
 					onclick={() => (annual = true)}
 				>
 					Annual <span class="text-xs ml-1 text-gray-500">Save 20%</span>

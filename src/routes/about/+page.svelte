@@ -1,8 +1,6 @@
 <script lang="ts">
 	// Components
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
-
-	// Icons
 	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
 	import Story from "./Story.svelte";
 	import SecondaryHero from "$lib/components/layout/hero-sections/SecondaryHero.svelte";
@@ -11,33 +9,32 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "AI-First Design",
+			description: "Leveraging cutting-edge artificial intelligence to democratize professional design for every startup."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Founder Focused",
+			description: "Understanding startup needs and building solutions that move at the speed of entrepreneurship."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Accessible Excellence",
+			description: "Making studio-quality design affordable and effortless for teams of any size or budget."
 		}
 	];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+	title="Empowering startups with intelligent design"
+	subtitle="Building the future of AI-powered company creation"
+	imageSrc="/generated/image-a-diverse-group-of-people-collaborating-.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Most startup stories begin with a bold idea and not enough time, money, or people. We've been there. Hiring a professional designer felt out of reach, and even DIY tools added more confusion than clarity. That's why we built AI Designer for Startups—to give early-stage founders design support that feels like a real studio, but moves faster and costs way less.",
+		"Our mission is to democratize great design. Every startup deserves to look polished and professional from day one. Whether you're building your first landing page, pitching investors, or launching a product—your visual identity matters. By using AI to replicate the workflows of top-tier design teams, we empower founders to create strong brand foundations without needing creative departments or painful design lessons.",
+		"Here's our approach: understand what startups actually need, then simplify it using smart, scalable design systems. You don't have to speak in design terminology—we translate ideas into output that's clear, consistent, and crafted to grow with your company. Think brand visuals, pitch-ready decks, responsive landing pages, and marketing assets—all generated in minutes. No bottlenecks. No bloat. Just fast, founder-first design aligned to your startup's goals."
 	]}
 />
 
@@ -96,7 +93,7 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to design smarter?"
+	subtitle="Start building your brand today"
+	description="Join hundreds of startups already using AI-powered design to launch faster, look professional, and focus on what matters most—building their business."
 />
