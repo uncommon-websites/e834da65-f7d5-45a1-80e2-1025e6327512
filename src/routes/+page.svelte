@@ -11,12 +11,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Design done for you"
+	subtitle="Everything your startup needs to get started"
+	imageSrc="/generated/image-a-group-of-diverse-startup-founders-cele.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by innovative startups"
+	logoUrls={[
+		'https://logo.clearbit.com/stripe.com',
+		'https://logo.clearbit.com/notion.so',
+		'https://logo.clearbit.com/figma.com',
+		'https://logo.clearbit.com/discord.com'
+	]}
+/>
 
 <Summary
 	generating
