@@ -33,7 +33,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"We built this because early-stage startups—ours included—need design, but can't always afford to slow down or spend big. AI Designer bridges that gap, giving founders the visual tools they need to build credible companies without the typical constraints."`}
 			/>
 
 			<!-- Team Member & CTA Section -->

@@ -64,42 +64,29 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "Healthcare",
-				href: "/use-cases/healthcare",
-				image:
-					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",
-
+				label: "Brand Identity",
+				href: "/use-cases/brand-identity",
+				image: "/generated/image-a-startup-founder-is-sitting-at-a-modern.webp",
 				description:
-					"Innovative solutions for patient care, delivering advanced analytics to improve diagnostics, enhancing personalized treatment plans through real‑time data insights, and seamlessly integrating with existing healthcare systems to drive better outcomes and streamline clinical workflows",
+					"Generate complete brand identities including logos, color palettes, and style guides that make investors and customers take you seriously from day one",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Finance",
-				href: "/use-cases/finance",
-				image:
-					"https://images.unsplash.com/photo-1638913662180-afc4334cf422?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+				label: "Pitch Decks",
+				href: "/use-cases/pitch-decks",
+				image: "/generated/image-an-entrepreneur-is-standing-in-front-of-.webp",
 				description:
-					"Streamlining operations and compliance across financial services by automating regulatory reporting, strengthening risk management, integrating advanced real‑time analytics, and ensuring robust audit trails for enhanced governance and operational efficiency",
+					"Create investor-ready presentations with polished slide designs and layouts that help founders communicate their vision clearly to potential investors",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Technology",
-				href: "/use-cases/technology",
-				image:
-					"https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+				label: "Websites",
+				href: "/use-cases/websites",
+				image: "/generated/image-a-small-startup-team-is-gathered-around-.webp",
 				description:
-					"Cutting-edge tools for tech companies, offering scalable cloud-based platforms, AI-driven development frameworks, secure collaboration environments, and streamlined deployment pipelines to accelerate innovation and deliver market-leading solutions",
-				showInNav: true,
-				showInFooter: true
-			},
-			{
-				label: "Education",
-				href: "/use-cases/education",
-				image:
-					"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description: "Enhancing learning experiences",
+					"Design and deploy professional landing pages and full websites that convert visitors into users without needing a development team",
 				showInNav: true,
 				showInFooter: true
 			}

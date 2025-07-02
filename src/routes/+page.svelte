@@ -27,107 +27,112 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="We provide AI-powered design solutions specifically tailored for startups to accelerate their company building journey. Our platform offers intelligent design assistance across branding, websites, and marketing materials to help new businesses establish their professional presence. From logo creation to full brand identity development, we make high-quality design accessible and affordable for early-stage companies."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Jordan Mehra",
+			position: "Founder and CEO",
+			company: "Streamcrate",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We trimmed our design process from 3 months down to 2 weeks using AI Designer. It let us move forward without waiting on freelancers or burning budget.",
+			image: "/generated/image-a-man-in-a-cozy-home-office-sitting-at-a.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Zoe Kimani",
+			position: "Cofounder",
+			company: "SpindleSync",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Our investor deck looked like a Series A pull—done overnight. It gave us a serious edge and made potential partners take us seriously despite being just 2 weeks old.",
+			image: "/generated/image-a-woman-working-on-a-rooftop-workspace-d.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Elias Rondo",
+			position: "Cofounder",
+			company: "BrambleHQ",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We saved over $50,000 compared to agency quotes and still got branding strong enough to hold up in front of VCs. Dollar for dollar, nothing comes close.",
+			image: "/generated/image-a-man-relaxing-in-a-modern-coworking-spa.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Everything your startup needs"
+	subtitle="Professional design made accessible for early-stage companies"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Instant brand identity",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Generate logos, color palettes, and complete brand kits in seconds. No creative brief needed—just describe your startup vision."
 		},
 		{
-			title: "Data Analysis",
+			title: "Pitch deck ready assets",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Create investor-ready presentations and marketing materials. Turn rough ideas into polished, professional designs that impress stakeholders."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Website and landing pages",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Build conversion-focused web experiences without a developer. AI generates responsive designs optimized for your target audience."
+		},
+		{
+			title: "No designer needed",
+			description:
+				"Access studio-quality design without hiring overhead. Perfect for pre-seed startups moving fast on limited budgets."
+		},
+		{
+			title: "Edit like a document",
+			description:
+				"Customize every generated asset with intuitive editing tools. Make changes instantly—no complex design software required."
+		},
+		{
+			title: "Startup speed delivery",
+			description:
+				"From concept to final assets in minutes, not weeks. Move as fast as your ideas without compromising on design quality."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
+			title: "Launch with professional branding",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+				"When starting your company, first impressions matter. Generate complete brand identities including logos, color palettes, and style guides that make investors and customers take you seriously from day one.",
+			image: "/generated/image-a-startup-founder-is-sitting-at-a-modern.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/brand-identity",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
+			title: "Create investor-ready pitch decks",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+				"Fundraising requires polished presentations that tell your story compelling. Our AI generates slide designs and layouts that help founders communicate their vision clearly to potential investors.",
+			image: "/generated/image-an-entrepreneur-is-standing-in-front-of-.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/pitch-decks",
+				label: "See examples"
 			}
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Build conversion-focused websites",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+				"Your website is often the first touchpoint with customers. Design and deploy professional landing pages and full websites that convert visitors into users without needing a development team.",
+			image: "/generated/image-a-small-startup-team-is-gathered-around-.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/websites",
+				label: "View templates"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />

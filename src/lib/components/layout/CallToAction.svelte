@@ -90,7 +90,7 @@
 			</div>
 			<img
 				src={imageSrc}
-				alt="Visual comparison showing product benefits"
+				alt="Happy startup founder working in coworking space"
 				class="hidden aspect-[4/5] size-full max-h-full w-full rounded-[calc(max(var(--inner-radius),.25rem))] object-cover lg:block"
 			/>
 		</div>
